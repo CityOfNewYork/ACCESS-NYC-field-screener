@@ -6,7 +6,7 @@
  * Author: NYC Opportunity
  */
 
-$dir = WPMU_PLUGIN_DIR . '/field-screener';
+$dir = WPMU_PLUGIN_DIR . '/anyc-field-screener';
 
 if (file_exists($dir)) {
   include_once $dir . '/Auth.php';

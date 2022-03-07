@@ -1,6 +1,6 @@
 {
   "name": "nyco/anyc-field-screener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "wordpress-muplugin",
   "license": "GPL-3.0+",
   "description": "The ACCESS NYC Field Screener is a tablet optimized version of the ACCESS NYC benefits eligibility screener created for outreach caseworkers.",

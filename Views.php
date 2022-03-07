@@ -17,7 +17,7 @@ class Views {
    *
    * @var String
    */
-  const ASSETS = '/wp-content/mu-plugins/field-screener/assets';
+  const ASSETS = '/wp-content/mu-plugins/anyc-field-screener/assets';
 
   /**
    * The default view for the application to land on.

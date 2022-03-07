@@ -4,7 +4,7 @@
  * Template name: Field Screener
  */
 
-$dir = WPMU_PLUGIN_DIR . '/field-screener';
+$dir = WPMU_PLUGIN_DIR . '/anyc-field-screener';
 
 if (file_exists($dir)) {
   require_once $dir . '/Views.php';

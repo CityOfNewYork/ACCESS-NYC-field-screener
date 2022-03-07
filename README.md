@@ -9,7 +9,7 @@ This code, similar to the original eligibility screener, relies on the program c
 **$1** This package uses [Composer Installers](https://github.com/composer/installers) to install the package in the **Must Use** plugins directory (*/wp-content/mu-plugins*):
 
 ```shell
-composer require nyco/field-screener
+composer require nyco/anyc-field-screener
 ```
 
 ### Autoload Backend
@@ -17,7 +17,7 @@ composer require nyco/field-screener
 Copy the [autoloader sample](autoloader-sample.php) from the plugin directory into the must use plugin directory.
 
 ```shell
-cp wp-content/mu-plugins/field-screener/autoloader-sample.php wp-content/mu-plugins/field-screener.php
+cp wp-content/mu-plugins/anyc-field-screener/autoloader-sample.php wp-content/mu-plugins/field-screener.php
 ```
 
 Or, manually create a page template in the theme directory with the following snippet.
@@ -37,7 +37,7 @@ Contents.
  * Author: NYC Opportunity
  */
 
-$dir = WPMU_PLUGIN_DIR . '/field-screener';
+$dir = WPMU_PLUGIN_DIR . '/anyc-field-screener';
 
 if (file_exists($dir)) {
   include_once $dir . '/Auth.php';
@@ -53,7 +53,7 @@ if (file_exists($dir)) {
 Copy the [template sample](template-sample.php) from the plugin directory into the theme directory.
 
 ```shell
-cp wp-content/mu-plugins/field-screener/template-sample.php wp-content/themes/access/field-screener.php
+cp wp-content/mu-plugins/anyc-field-screener/template-sample.php wp-content/themes/access/field-screener.php
 ```
 
 Or, manually create a page template in the theme directory with the following snippet.
@@ -71,7 +71,7 @@ Contents.
  * Template name: Field Screener
  */
 
-$dir = WPMU_PLUGIN_DIR . '/field-screener';
+$dir = WPMU_PLUGIN_DIR . '/anyc-field-screener';
 
 if (file_exists($dir)) {
   require_once $dir . '/Views.php';
