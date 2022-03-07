@@ -54,7 +54,7 @@ import Toggle from 'utilities/toggle/toggle';
     new Results(el).init());
 
   /** Initialize ACCESS NYC Patterns library components */
-  new Icons('/wp-content/mu-plugins/field-screener/assets/svg/icons.475e6e65.svg');
+  new Icons('/wp-content/mu-plugins/anyc-field-screener/assets/svg/icons.475e6e65.svg');
   new Accordion();
   new Toggle();
 
