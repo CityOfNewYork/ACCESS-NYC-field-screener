@@ -4,6 +4,8 @@ The ACCESS NYC Field Screener is a tablet optimized version of the [ACCESS NYC b
 
 This code, similar to the original eligibility screener, relies on the program content and benefits screening API proxy inside the ACCESS NYC website in order to provide screening results to the client and caseworker.
 
+More about the Field Screener case study can be read about [here](https://medium.com/nyc-opportunity/nyc-opportunity-and-the-public-engagement-unit-partner-for-facilitated-benefits-screening-and-e889407ccf4c).
+
 ## Installation using [Composer](https://getcomposer.org/)
 
 **$1** This package uses [Composer Installers](https://github.com/composer/installers) to install the package in the **Must Use** plugins directory (*/wp-content/mu-plugins*):
